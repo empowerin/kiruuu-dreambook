@@ -1,126 +1,136 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#21151b"><title>Kiruuu Dreambook ♡</title>
-<style>
-:root{--bg:#21151b;--wine:#6c3448;--rose:#e6b6bd;--cream:#f7eee8;--muted:#c5adb4;--line:#ffffff20}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:75px}body{margin:0;background:var(--bg);color:var(--cream);font:16px/1.65 Georgia,serif;overflow-x:hidden}button{font:inherit;color:inherit;cursor:pointer}a{color:inherit;text-decoration:none}.grain{position:fixed;inset:0;z-index:20;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.6'/%3E%3C/svg%3E")}header{position:sticky;top:0;z-index:10;padding:13px 5vw;display:flex;justify-content:space-between;gap:12px;background:#21151bdc;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);font:11px Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}header small{color:var(--muted)}main{max-width:1080px;padding:0 22px;margin:auto}.hero{min-height:82svh;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;position:relative;isolation:isolate;padding:75px 0}.hero:before{content:"";position:absolute;inset:5% -8vw 0 25%;z-index:-2;background:url("assets/flowers-night.jpg") center 55%/cover;opacity:.44;filter:saturate(.7);mask-image:linear-gradient(90deg,transparent,#000 30%,#000 80%,transparent)}.hero:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,var(--bg) 0%,#21151bd9 45%,transparent)}.eyebrow,.kicker{font:10px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--rose)}h1{font-size:clamp(58px,10vw,115px);font-weight:400;letter-spacing:-.06em;line-height:.93;margin:23px 0}h1 em{color:var(--rose);font-weight:400}.hero p{max-width:430px;color:#ddcdd0}.pill{padding:13px 21px;border:1px solid #e6b6bd88;border-radius:99px;background:#6c34485c;transition:.25s}.pill:hover{background:var(--wine);transform:translateY(-2px)}.scroll{margin-top:35px;color:var(--muted);font:10px Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase}.section{padding:80px 0;border-top:1px solid var(--line)}.head{display:grid;grid-template-columns:1fr .65fr;gap:28px;align-items:end;margin-bottom:30px}.head p{color:var(--muted);font-size:14px}.head h2,.ending h2{font-size:clamp(38px,6vw,66px);line-height:1;letter-spacing:-.04em;font-weight:400;margin:12px 0}.letter{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px}.letter-art{min-height:370px;background:linear-gradient(0deg,#21151be8,transparent 75%),url("assets/kittens-with-rose.jpg") center/cover;display:flex;align-items:end;padding:24px;border:1px solid var(--line)}.letter-art strong{font-size:28px;line-height:1.15;font-weight:400}.copy{color:#e3d4d6}.copy p{margin:0 0 16px}.signature{font-size:22px;color:var(--rose);font-style:italic}.triptych{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:25px}.triptych button,.fave button{padding:0;border:0;background:none;overflow:hidden}.triptych img{height:190px;width:100%;object-fit:cover;display:block;transition:transform .6s}.triptych button:hover img,.fave button:hover img{transform:scale(1.04)}.tools{display:flex;justify-content:space-between;gap:12px;align-items:center;color:var(--muted);font:11px Arial,sans-serif;margin:22px 0 14px}.sorry-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px}.sorry{display:grid;grid-template-columns:28px 1fr 20px;gap:10px;align-items:start;text-align:left;padding:13px 10px;background:#ffffff06;border:1px solid var(--line);transition:.2s}.sorry:hover,.sorry[aria-expanded=true]{background:#6c34484a;border-color:#e6b6bd66}.sorry span{color:var(--rose);font:10px Arial,sans-serif;padding-top:4px}.sorry b{font-weight:400;font-size:13px;line-height:1.5}.sorry i{font-style:normal;color:var(--rose)}.jokes{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}.joke{min-height:175px;text-align:left;padding:15px;background:#2b1c24;border:1px solid var(--line);transition:.25s}.joke:hover{border-color:var(--rose);transform:translateY(-3px)}.joke small{color:var(--rose);font:10px Arial,sans-serif;letter-spacing:.12em}.joke strong{display:block;font-weight:400;font-size:19px;line-height:1.2;margin:25px 0 12px}.joke p{display:none;color:#d7c3c8;font-size:13px;line-height:1.5}.joke.open p{display:block;animation:rise .3s}.faves{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.fave img{width:100%;height:230px;object-fit:cover;display:block;transition:transform .6s}.fave h3{font-weight:400;font-size:20px;margin:10px 0 0}.fave p{font:12px/1.5 Arial,sans-serif;color:var(--muted);margin:2px 0}.note{margin-top:30px;padding:22px;border-left:1px solid var(--rose);background:#ffffff05;color:#d7c3c8}.ending{text-align:center;padding:100px 0;position:relative}.ending:before{content:"";position:absolute;z-index:-1;inset:15% 10%;background:url("assets/flowers-night.jpg") center/cover;opacity:.19;mask-image:radial-gradient(ellipse,#000,transparent 70%)}.ending h2{font-size:clamp(40px,8vw,82px)}.ending>p{max-width:500px;margin:20px auto;color:var(--muted)}.surprise{display:none;margin:25px auto;padding:25px;max-width:600px;border:1px solid #e6b6bd77;background:#21151be8;font-size:clamp(22px,4vw,34px);line-height:1.3;color:#f5d9de}.surprise.show{display:block;animation:rise .7s}footer{border-top:1px solid var(--line);padding:24px 0 35px;display:flex;justify-content:space-between;color:var(--muted);font:10px Arial,sans-serif;letter-spacing:.1em;text-transform:uppercase}.reveal{opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:none}.modal{position:fixed;inset:0;z-index:30;display:none;align-items:center;justify-content:center;padding:20px;background:#100a0df2}.modal.show{display:flex}.modal img{max-width:94vw;max-height:84vh;object-fit:contain}.modal button{position:absolute;right:15px;top:15px;border:1px solid var(--line);background:transparent;border-radius:50%;width:44px;height:44px}@keyframes rise{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}@keyframes petalfall{to{transform:translate(var(--drift),105vh) rotate(360deg);opacity:0}}.petal{position:fixed;top:-15px;width:7px;height:11px;background:var(--rose);border-radius:80% 10%;z-index:11;pointer-events:none;animation:petalfall 7s linear forwards}
-@media(max-width:720px){main{padding:0 16px}header{padding:12px 16px}.hero{min-height:75svh}.hero:before{inset:10% -20vw 0 0;opacity:.3}.hero:after{background:linear-gradient(90deg,var(--bg),#21151b99)}.section{padding:62px 0}.head,.letter{grid-template-columns:1fr;gap:8px}.letter-art{min-height:290px}.triptych{gap:7px}.triptych img{height:120px}.sorry-grid{grid-template-columns:1fr}.jokes{grid-template-columns:1fr 1fr}.joke{min-height:145px}.faves{grid-template-columns:1fr 1fr}.fave img{height:210px}footer{flex-wrap:wrap}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
-</style></head><body><div class="grain"></div><header><a href="#top">Kiruuu Dreambook ♡</a><small>a little note, made for you</small></header><main id="top">
-<section class="hero"><div class="eyebrow">a tiny corner of the internet · just for you</div><h1 class="reveal">Hi, <em>Kiruuu.</em><br>stay a little?</h1><p class="reveal">I made you a small thing. It has flowers, cats, a few embarrassing thoughts, and something I should've said properly.</p><button class="pill" id="begin">okay, show me ♡ ↗</button><div class="scroll">take your time · no pressure</div></section>
-<section class="section" id="letter"><div class="head reveal"><div><div class="kicker">01 / the important bit</div><h2>I'm sorry,<br>bestie.</h2></div><p>This isn't here to make you forgive me quickly. I just wanted to say it properly, without rushing past how you feel.</p></div><div class="letter"><div class="letter-art reveal"><strong>a little honesty<br>you matter more than my need to be right.</strong></div><div class="copy reveal"><p>Kiruuu, I'm genuinely sorry for upsetting you. I don't want to brush it off, make excuses, or act like it wasn't a big deal just because I wish it hadn't happened.</p><p>I might not have handled things the way I should have, and I can understand if you need a little time. Your feelings deserve to be heard, not argued out of existence.</p><p>Our friendship means a lot to me. I miss the easy, silly, comfy vibe — the random nonsense, the little things, and being able to laugh without anything feeling weird.</p><p>I'm not asking you to instantly be okay. I just wanted you to know that I'm sorry, I care about you, and I'll try to do better instead of only saying I will.</p><p class="signature">— your slightly clueless friend ♡</p></div></div><div class="triptych reveal"><button data-img="assets/cats-in-mist.jpg"><img src="assets/cats-in-mist.jpg" alt="Two cats in a misty meadow"></button><button data-img="assets/rainy-kitten.jpg"><img src="assets/rainy-kitten.jpg" alt="Kitten on a rainy street"></button><button data-img="assets/flowers-night.jpg"><img src="assets/flowers-night.jpg" alt="Glowing flowers in a dark garden"></button></div></section>
-<section class="section" id="sorries"><div class="head reveal"><div><div class="kicker">02 / yes, one hundred</div><h2>100 little<br>sorries.</h2></div><p>Tap any line to give it a little room. Some are serious, some are goofy, but the apology underneath them is real.</p></div><div class="tools"><span>100 NOTES · OPEN ANY ONE</span><button class="pill" id="all">open all</button></div><div class="sorry-grid"><button class="sorry" aria-expanded="false" type="button"><span>01</span><b>Sorry for making your heart feel heavier instead of lighter.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>02</span><b>Sorry, Kiruuu. You deserved a softer moment from me.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>03</span><b>I&#x27;m sorry for the part I played in making things awkward.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>04</span><b>Sorry for not thinking enough about how my words might land.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>05</span><b>I&#x27;m sorry if I made you feel unheard.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>06</span><b>Sorry for letting a small thing feel bigger than it needed to.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>07</span><b>I&#x27;m sorry I didn&#x27;t handle that in the best way.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>08</span><b>Sorry for the stress I added to your day.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>09</span><b>I&#x27;m sorry for not pausing and choosing my words better.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>10</span><b>Sorry, bestie. I could&#x27;ve done better.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>11</span><b>I&#x27;m sorry if my actions didn&#x27;t match how much I value you.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>12</span><b>Sorry for making you explain how you felt more than once.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>13</span><b>I&#x27;m sorry for being careless with something that mattered to you.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>14</span><b>Sorry for not giving the moment the patience it needed.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>15</span><b>I&#x27;m sorry if I made you feel like your feelings were too much.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>16</span><b>Sorry for the unnecessary tension.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>17</span><b>I&#x27;m sorry for missing the chance to respond more kindly.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>18</span><b>Sorry if I made a difficult moment even more difficult.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>19</span><b>I&#x27;m sorry for not listening as carefully as I should have.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>20</span><b>Sorry, Kiruuu. I don&#x27;t want a silly mistake to sit between us.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>21</span><b>I&#x27;m sorry for being thoughtless.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>22</span><b>Sorry for not understanding your side sooner.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>23</span><b>I&#x27;m sorry if I made you question whether I care.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>24</span><b>Sorry for not showing up in the way you needed.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>25</span><b>I&#x27;m sorry for making you upset; that wasn&#x27;t fair to you.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>26</span><b>Sorry for the words I chose.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>27</span><b>I&#x27;m sorry for the words I should&#x27;ve chosen instead.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>28</span><b>Sorry for not being more careful with your trust.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>29</span><b>I&#x27;m sorry if I turned a conversation into a mess.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>30</span><b>Sorry for not taking a breath before reacting.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>31</span><b>I&#x27;m sorry for any hurt I caused, even if I didn&#x27;t intend it.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>32</span><b>Sorry for not making space for your point of view.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>33</span><b>I&#x27;m sorry for letting my mood affect you.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>34</span><b>Sorry for making you deal with my mistake.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>35</span><b>I&#x27;m sorry for not getting it right the first time.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>36</span><b>Sorry for the awkwardness I brought into our friendship.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>37</span><b>I&#x27;m sorry if I made you feel overlooked.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>38</span><b>Sorry for not being more thoughtful in that moment.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>39</span><b>I&#x27;m sorry for the tiny storm I helped create.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>40</span><b>Sorry, Kiruuu. You deserved a better response.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>41</span><b>I&#x27;m sorry for not choosing kindness quickly enough.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>42</span><b>Sorry if I made you feel like you had to defend yourself.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>43</span><b>I&#x27;m sorry for not asking instead of assuming.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>44</span><b>Sorry for being a little too stubborn.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>45</span><b>I&#x27;m sorry for not explaining myself clearly.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>46</span><b>Sorry for the confusion I caused.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>47</span><b>I&#x27;m sorry for making a moment that should&#x27;ve been simple feel complicated.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>48</span><b>Sorry for not recognising the impact sooner.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>49</span><b>I&#x27;m sorry for the part I played, and I own that.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>50</span><b>Sorry for not doing better when it counted.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>51</span><b>I&#x27;m sorry if I made you feel distant from me.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>52</span><b>Sorry for not checking in properly.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>53</span><b>I&#x27;m sorry for being less considerate than you deserved.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>54</span><b>Sorry for making you carry an uncomfortable feeling.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>55</span><b>I&#x27;m sorry for not handling your trust with enough care.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>56</span><b>Sorry for missing what you were trying to tell me.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>57</span><b>I&#x27;m sorry for being a little dum-dum in that moment.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>58</span><b>Sorry, even my imaginary Gojo would tell me to do better.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>59</span><b>I&#x27;m sorry for not using my one brain cell responsibly.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>60</span><b>Sorry for the emotional buffering screen I caused.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>61</span><b>I&#x27;m sorry for being a side quest when you needed peace.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>62</span><b>Sorry for the plot twist nobody asked for.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>63</span><b>I&#x27;m sorry for making the vibe go from ✨ to ...</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>64</span><b>Sorry for being a certified silly goose.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>65</span><b>I&#x27;m sorry; I should&#x27;ve updated my friendship software.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>66</span><b>Sorry for the lag in my common sense.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>67</span><b>I&#x27;m sorry for making a tiny issue feel like a season finale.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>68</span><b>Sorry, bestie. My brain really said &#x27;skip tutorial&#x27;.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>69</span><b>I&#x27;m sorry for not reading the room properly.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>70</span><b>Sorry for being the reason the peace got interrupted.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>71</span><b>I&#x27;m sorry for acting before thinking. Not my finest episode.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>72</span><b>I&#x27;m sorry for being a little too chaotic at the wrong time.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>73</span><b>Sorry for not being the calm, sensible person I pretend to be.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>74</span><b>I&#x27;m sorry for the awkward silence or weird vibes.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>75</span><b>Sorry for not giving you the kind version of my thoughts.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>76</span><b>I&#x27;m sorry for letting a bad moment speak louder than our friendship.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>77</span><b>Sorry for not being more gentle with the situation.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>78</span><b>I&#x27;m sorry for not making things right sooner.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>79</span><b>Sorry for every extra ounce of stress I added.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>80</span><b>I&#x27;m sorry if my apology is late, but I still mean it.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>81</span><b>Sorry for not being perfect at friendship—but I can keep learning.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>82</span><b>I&#x27;m sorry for the part that was mine to fix.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>83</span><b>Sorry for not doing a better job of understanding you.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>84</span><b>I&#x27;m sorry for making you feel bad, even unintentionally.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>85</span><b>Sorry for not being more mindful of your boundaries.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>86</span><b>I&#x27;m sorry for the frustration I caused.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>87</span><b>Sorry for not being more patient.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>88</span><b>I&#x27;m sorry for not choosing the best time to say things.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>89</span><b>Sorry for any moment I made you feel alone in it.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>90</span><b>I&#x27;m sorry for not being the best version of myself in that moment.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>91</span><b>Sorry for not showing enough care through my actions.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>92</span><b>I&#x27;m sorry for the hurt, the confusion, and the weirdness.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>93</span><b>Sorry for not being more thoughtful before I spoke.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>94</span><b>I&#x27;m sorry for letting one moment get in the way of the good stuff.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>95</span><b>Sorry for making you deal with something I could&#x27;ve handled better.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>96</span><b>I&#x27;m sorry, Kiruuu. Your feelings matter to me.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>97</span><b>Sorry for the mess; I&#x27;m willing to listen and learn.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>98</span><b>I&#x27;m sorry. No pressure to reply before you&#x27;re ready.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>99</span><b>Sorry, bestie. I care about you, and I&#x27;ll try to do better.</b><i>＋</i></button>
-<button class="sorry" aria-expanded="false" type="button"><span>100</span><b>One last sorry: I hope we can find our way back to a comfy vibe, at your pace.</b><i>＋</i></button></div></section>
-<section class="section" id="h8"><div class="head reveal"><div><div class="kicker">03 / affection disguised as slander</div><h2>5 things I H8 BOUT UHH</h2></div><p>For legal reasons, these are not real complaints. Tap each card. The evidence is extremely unserious.</p></div><div class="jokes"><button class="joke reveal"><small>01 / THE CRIME</small><strong>your cute little face</strong><p>Like?? hello?? why are you allowed to be this adorable and then act normal about it 😭</p></button><button class="joke reveal"><small>02 / THE CRIME</small><strong>your Gojo agenda</strong><p>I have to hear about that man like he's personally paying rent in your brain. Honestly, fair.</p></button><button class="joke reveal"><small>03 / THE CRIME</small><strong>your dosa loyalty</strong><p>One dosa mention away from starting a food documentary. The dedication is impressive.</p></button><button class="joke reveal"><small>04 / THE CRIME</small><strong>being miss memorable</strong><p>You do one tiny thing and my brain stores it like a historic event. Very inconvenient. Very you.</p></button><button class="joke reveal"><small>05 / THE CRIME</small><strong>making me miss you</strong><p>Rude behaviour, actually. Anyway, you're important to me, okay? ♡</p></button></div></section>
-<section class="section" id="world"><div class="head reveal"><div><div class="kicker">04 / things that feel like you</div><h2>A tiny little<br>dreambook.</h2></div><p>A few little worlds I picked for this page. The pictures are part of the atmosphere, not stickers pasted on top.</p></div><div class="faves">
-<article class="fave reveal"><button data-img="assets/flowers-night.jpg"><img src="assets/flowers-night.jpg" alt="Glowing coral flowers in a dark garden"></button><h3>soft little things</h3><p>For the gentle, glowy kind of magic.</p></article>
-<article class="fave reveal"><button data-img="assets/dosa.jpg"><img src="assets/dosa.jpg" alt="Dosa with chutneys and sambar"></button><h3>dosa o'clock</h3><p>Respectfully, an elite choice.</p></article>
-<article class="fave reveal"><button data-img="assets/edinburgh.jpg"><img src="assets/edinburgh.jpg" alt="Historic stone street in Edinburgh"></button><h3>one day: Edinburgh</h3><p>Old streets, warm windows, main-character weather.</p></article>
-<article class="fave reveal"><button data-img="assets/golden-retriever.jpg"><img src="assets/golden-retriever.jpg" alt="Golden retriever in yellow flowers"></button><h3>golden retriever energy</h3><p>Pure sunshine in dog form.</p></article>
-<article class="fave reveal"><button data-img="assets/kittens-with-rose.jpg"><img src="assets/kittens-with-rose.jpg" alt="Kittens reaching toward a pink rose"></button><h3>tiny chaos club</h3><p>Small paws. Dramatic intentions.</p></article>
-<article class="fave reveal"><button data-img="assets/cat-with-flowers.jpg"><img src="assets/cat-with-flowers.jpg" alt="Cat holding a bouquet"></button><h3>flower delivery</h3><p>Delivered by someone with no training.</p></article>
-<article class="fave reveal"><button data-img="assets/amusement-park.jpg"><img src="assets/amusement-park.jpg" alt="Colourful amusement park under a blue sky"></button><h3>little adventures</h3><p>For future laughs and chaotic photos.</p></article>
-<article class="fave reveal"><button data-img="assets/swing-memory.jpg"><img src="assets/swing-memory.jpg" alt="People on swings at dusk"></button><h3>stay a little longer</h3><p>That soft, nostalgic, end-of-day feeling.</p></article></div><div class="note reveal">P.S. You don't have to reply right away. Read this whenever you feel like it, and take all the time you need. 🤍</div></section>
-<section class="ending" id="end"><div class="kicker reveal">05 / one last tiny thing</div><h2 class="reveal">Can we keep<br>the good stuff? ♡</h2><p class="reveal">Not by pretending nothing happened. Just by being honest, giving each other room, and trying again when we're ready.</p><button class="pill" id="surpriseBtn">one last surprise 📸</button><div class="surprise" id="surprise" aria-live="polite">kiruuu, say cheeseeee!<br>i wanna see my fave eyes smileeeee 🥹🤍📸<p style="font-size:14px">no pressure, no rush. just a tiny wish from your friend. ♡</p></div></section><footer><span>made with care, for Kiruuu</span><span>take your time · always</span></footer></main>
-<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Expanded picture"><button id="close" aria-label="Close image">×</button><img id="bigImage" alt=""></div>
-<script>
-(()=>{const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];$('#begin').addEventListener('click',()=>$('#letter').scrollIntoView({behavior:'smooth'}));if('IntersectionObserver'in window){const ob=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');ob.unobserve(e.target)}}),{threshold:.12});$$('.reveal').forEach(el=>ob.observe(el))}else $$('.reveal').forEach(el=>el.classList.add('visible'));
-$$('.sorry').forEach(b=>b.addEventListener('click',()=>{const open=b.getAttribute('aria-expanded')!=='true';b.setAttribute('aria-expanded',open);b.querySelector('i').textContent=open?'−':'＋'}));$('#all').addEventListener('click',()=>{const open=$('#all').dataset.open!=='1';$$('.sorry').forEach(b=>{b.setAttribute('aria-expanded',open);b.querySelector('i').textContent=open?'−':'＋'});$('#all').dataset.open=open?'1':'0';$('#all').textContent=open?'close all':'open all'});
-$$('.joke').forEach(b=>b.addEventListener('click',()=>b.classList.toggle('open')));const modal=$('#modal'),big=$('#bigImage');$$('[data-img]').forEach(b=>b.addEventListener('click',()=>{big.src=b.dataset.img;big.alt=b.querySelector('img')?.alt||'Selected image';modal.classList.add('show');$('#close').focus()}));function close(){modal.classList.remove('show');big.src=''}$('#close').addEventListener('click',close);modal.addEventListener('click',e=>{if(e.target===modal)close()});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});
-$('#surpriseBtn').addEventListener('click',()=>{const box=$('#surprise');box.classList.add('show');box.scrollIntoView({behavior:'smooth',block:'center'});if(!matchMedia('(prefers-reduced-motion: reduce)').matches){for(let i=0;i<16;i++){const p=document.createElement('i');p.className='petal';p.style.left=Math.random()*100+'%';p.style.setProperty('--drift',(Math.random()*140-70)+'px');p.style.animationDelay=Math.random()+'s';document.body.append(p);setTimeout(()=>p.remove(),8000)}}});
-})();
-</script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#171416">
+  <meta name="description" content="A small, thoughtful digital gift made for Kiruuu.">
+  <title>Kiruuu Dreambook ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Kiruuu Dreambook, back to top">Kiruuu Dreambook <span>♡</span></a>
+    <span class="header-note">a little corner, just for you</span>
+  </header>
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true"></div>
+      <span class="eyebrow reveal">a tiny digital gift · made with care</span>
+      <h1 id="hero-title" class="reveal">Hi, <em>Kiruuu.</em><br><span>stay a little?</span></h1>
+      <p class="hero-copy reveal">A small corner of the internet, made just for you. Take your time. ♡</p>
+      <button class="button button-primary" id="begin" type="button">okay, show me <span aria-hidden="true">↗</span></button>
+      <a class="scroll-cue" href="#greeting">take your time <span aria-hidden="true">↓</span></a>
+      <span class="hero-star star-one" aria-hidden="true">✦</span><span class="hero-star star-two" aria-hidden="true">✧</span>
+    </section>
+
+    <section class="section greeting-section" id="greeting" aria-labelledby="greeting-title">
+      <div class="section-head reveal"><span class="kicker">01 / just for you</span><h2 id="greeting-title">A little hello,<br><em>Kiruuu.</em></h2></div>
+      <div class="greeting-panel reveal"><span class="ornament" aria-hidden="true">♡</span><p>I'm glad this little page found its way to you.</p><button class="text-button" data-scroll="#apology" type="button">keep going <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <section class="section apology-section" id="apology" aria-labelledby="apology-title">
+      <div class="section-head reveal"><span class="kicker">02 / the important bit</span><h2 id="apology-title">I'm sorry,<br><em>Kiruuu.</em></h2></div>
+      <div class="apology-layout">
+        <figure class="apology-image reveal"><img src="assets/kittens-with-rose.jpg" alt="Two kittens reaching toward a soft pink rose"><figcaption>a small, gentle pause</figcaption></figure>
+        <div class="apology-copy reveal"><p>This isn't here to make you forgive me quickly. I just wanted to say it properly, without rushing past how you feel.</p><p>I care about you, and I want to handle things with more thought and kindness.</p><div class="tiny-signoff"><span aria-hidden="true">✦</span> you matter more than my need to be right.</div><button class="button button-secondary" data-scroll="#sorries" type="button">the little sorries <span aria-hidden="true">↓</span></button></div>
+      </div>
+    </section>
+
+    <section class="section sorries-section" id="sorries" aria-labelledby="sorries-title">
+      <div class="section-head reveal"><span class="kicker">03 / one hundred little sorries</span><h2 id="sorries-title">100 little<br><em>sorries.</em></h2><p class="section-intro">Open a card whenever you feel like it. You don't have to open them all.</p></div>
+      <div class="sorry-toolbar reveal"><span id="sorry-range" aria-live="polite">01–10 of 100</span><span id="sorry-progress-text">0 opened</span></div>
+      <div class="progress-track" role="progressbar" aria-label="Apology cards opened" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="sorry-progress"><span id="sorry-progress-fill"></span></div>
+      <div class="sorry-grid" id="sorry-grid" aria-label="Apology cards"></div>
+      <div class="group-controls"><button class="button button-secondary" id="prev-group" type="button" disabled>← previous 10</button><button class="button button-primary" id="next-group" type="button">next 10 →</button></div>
+      <p class="quiet-note">Every card is optional. The next chapter is always here when you're ready.</p>
+    </section>
+
+    <section class="section h8-section" id="h8" aria-labelledby="h8-title">
+      <div class="section-head reveal"><span class="kicker">04 / affection disguised as slander</span><h2 id="h8-title">5 things i h8<br><em>bout uhh</em></h2><p class="section-intro">Five very unserious complaints. Tap to reveal the evidence.</p></div>
+      <div class="joke-grid">
+        <button class="joke-card reveal" type="button" aria-expanded="false"><span class="card-index">01 / THE CRIME</span><strong>your cute little face</strong><span class="joke-reveal">Like?? hello?? being adorable and then acting normal about it is suspicious behaviour. ♡</span><span class="card-plus" aria-hidden="true">＋</span></button>
+        <button class="joke-card reveal" type="button" aria-expanded="false"><span class="card-index">02 / THE CRIME</span><strong>your Gojo agenda</strong><span class="joke-reveal">That man has a permanent reservation in your brain. Honestly? The commitment is impressive.</span><span class="card-plus" aria-hidden="true">＋</span></button>
+        <button class="joke-card reveal" type="button" aria-expanded="false"><span class="card-index">03 / THE CRIME</span><strong>your dosa loyalty</strong><span class="joke-reveal">One dosa mention away from a full food documentary. Respectfully, elite taste.</span><span class="card-plus" aria-hidden="true">＋</span></button>
+        <button class="joke-card reveal" type="button" aria-expanded="false"><span class="card-index">04 / THE CRIME</span><strong>being miss memorable</strong><span class="joke-reveal">You have main-character energy and you didn't even submit an application.</span><span class="card-plus" aria-hidden="true">＋</span></button>
+        <button class="joke-card reveal" type="button" aria-expanded="false"><span class="card-index">05 / THE CRIME</span><strong>being important to me</strong><span class="joke-reveal">Honestly rude. Anyway, that's the whole complaint. ♡</span><span class="card-plus" aria-hidden="true">＋</span></button>
+      </div>
+    </section>
+
+    <section class="section notes-section" id="notes" aria-labelledby="notes-title">
+      <div class="section-head reveal"><span class="kicker">05 / little notes</span><h2 id="notes-title">A few things,<br><em>just because.</em></h2><p class="section-intro">Tap a note to open it. No hidden tasks, no rush.</p></div>
+      <div class="note-grid">
+        <button class="note-card reveal" type="button" aria-expanded="false"><span class="note-stamp" aria-hidden="true">✦</span><span class="note-label">NOTE 01</span><strong>You deserve softness.</strong><span class="note-body">Especially on the days when everything feels like a little too much.</span><span class="note-action">open note <span aria-hidden="true">↗</span></span></button>
+        <button class="note-card reveal" type="button" aria-expanded="false"><span class="note-stamp" aria-hidden="true">♡</span><span class="note-label">NOTE 02</span><strong>Keep being you.</strong><span class="note-body">Your little interests, your favourites, your own very specific kind of magic—they all get to belong here.</span><span class="note-action">open note <span aria-hidden="true">↗</span></span></button>
+        <button class="note-card reveal" type="button" aria-expanded="false"><span class="note-stamp" aria-hidden="true">☾</span><span class="note-label">NOTE 03</span><strong>No pressure, ever.</strong><span class="note-body">You can take your time with all of this. Your feelings don't need to follow a deadline.</span><span class="note-action">open note <span aria-hidden="true">↗</span></span></button>
+      </div>
+    </section>
+
+    <section class="section colour-section" id="colours" aria-labelledby="colour-title">
+      <div class="section-head reveal"><span class="kicker">06 / the little things that are so you</span><h2 id="colour-title">Her favourite<br><em>things. ♡</em></h2><p class="section-intro">A tiny collection of Kiruuu's favourite shades, little joys, dream places, comfort foods, and the things that make her feel most like herself.</p></div>
+      <div class="favourites-intro reveal">
+        <div class="favourite-palette" aria-label="Wine red, grey, and black colour palette"><span style="--palette:#651c32" title="Wine red"></span><span style="--palette:#858187" title="Grey"></span><span style="--palette:#171619" title="Black"></span></div>
+        <div><span class="kicker">HER SIGNATURE PALETTE</span><h3>wine red · grey · black</h3><p>Deep, moody, timeless — just the way her little universe likes it.</p></div>
+        <div class="palette-glow" aria-hidden="true"></div>
+      </div>
+      <div class="favourites-grid">
+        <article class="favourite-card reveal"><span class="favourite-icon flower-icon" aria-hidden="true">🌷</span><span class="favourite-label">01 / FLOWERS</span><h3>Tulips & roses</h3><p>Soft petals, pretty colours, and flowers that feel like a tiny love note.</p><div class="mini-flower-row" aria-hidden="true">✿　❀　✿</div></article>
+        <article class="favourite-card reveal"><span class="favourite-icon" aria-hidden="true">🐈</span><span class="favourite-label">02 / ANIMALS</span><h3>Cats & kittens</h3><p>Little paws, curious eyes, sleepy faces, and maximum pookie energy.</p><div class="mini-flower-row" aria-hidden="true">ฅ^•ﻌ•^ฅ</div></article>
+        <article class="favourite-card reveal"><span class="favourite-icon" aria-hidden="true">🐕</span><span class="favourite-label">03 / DOGGOS</span><h3>Golden Retriever</h3><p>A fluffy sunshine friend with the sweetest, happiest energy.</p><div class="mini-flower-row" aria-hidden="true">♡　🐾　♡</div></article>
+        <article class="favourite-card reveal"><span class="favourite-icon" aria-hidden="true">🌿</span><span class="favourite-label">04 / HER KIND OF PLACE</span><h3>Green & peaceful</h3><p>Nature spots, leafy corners, fresh air, and amusement-park adventures.</p><div class="mini-flower-row" aria-hidden="true">☘　✧　☘</div></article>
+        <article class="favourite-card favourite-card-wide reveal"><span class="favourite-icon" aria-hidden="true">🏰</span><span class="favourite-label">05 / THE DREAM DESTINATION</span><h3>Edinburgh, Scotland</h3><p>Old stone streets, cosy windows, misty skies, and a little place to dream about.</p><span class="card-underline" aria-hidden="true"></span></article>
+        <article class="favourite-card reveal"><span class="favourite-icon" aria-hidden="true">🍽️</span><span class="favourite-label">06 / COMFORT FOOD</span><h3>The food trio</h3><p><span class="favourite-chip">Dosa</span><span class="favourite-chip">Pav bhaji</span><span class="favourite-chip">Chhole bhature</span></p><div class="mini-flower-row" aria-hidden="true">made for happy tummies ♡</div></article>
+        <article class="favourite-card favourite-card-wide icecream-card reveal"><span class="favourite-icon" aria-hidden="true">🍨</span><span class="favourite-label">07 / ICE CREAM MOODS</span><h3>Five kinds of happy</h3><div class="icecream-list"><span>Chocolate</span><span>Strawberry</span><span>Cookies & Cream</span><span>Mixed Fruit</span><span>Nuts</span></div><div class="icecream-sparkles" aria-hidden="true">✦　✧　✦</div></article>
+        <article class="favourite-card reveal"><span class="favourite-icon" aria-hidden="true">🎧</span><span class="favourite-label">08 / SOUNDTRACK</span><h3>Peaceful songs</h3><p>Soft, feeling-filled music — especially that Alfaaz-type vibe.</p><div class="sound-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></article>
+      </div>
+      <div class="favourite-heart-note reveal"><span class="heart-note-orbit" aria-hidden="true">♡</span><span class="kicker">THE MOST IMPORTANT PART</span><h3>She gets to be <em>fully herself.</em></h3><p>Cute, childish, pookie, quiet, excited, soft — all of it belongs. She deserves to feel valued, accepted as she is, and comfortable around people who never ask her to change to be loved as a friend.</p><span class="heart-note-signoff">no pretending. no changing. just Kiruuu. 🤍</span>
+      </div>
+    </section>
+
+    <section class="section dreambook-section" id="dreambook" aria-labelledby="dreambook-title">
+      <div class="section-head reveal"><span class="kicker">07 / little worlds she might love</span><h2 id="dreambook-title">Little worlds<br><em>that feel soft.</em></h2><p class="section-intro">A few little corners of the world, collected for this page.</p></div>
+      <div class="photo-grid">
+        <figure class="photo-card photo-tall reveal"><button class="photo-button" type="button" data-img="assets/flowers-night.jpg" data-alt="Glowing flowers in a dark garden"><img src="assets/flowers-night.jpg" alt="Glowing flowers in a dark garden"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>soft little things</strong><span>the gentle, glowy kind of magic</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/dosa.jpg" data-alt="Dosa served with chutneys and sambar"><img src="assets/dosa.jpg" alt="Dosa served with chutneys and sambar"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>dosa o'clock</strong><span>an excellent life choice</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/edinburgh.jpg" data-alt="Historic stone street in Edinburgh"><img src="assets/edinburgh.jpg" alt="Historic stone street in Edinburgh"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>one day: Edinburgh</strong><span>old streets and warm windows</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/golden-retriever.jpg" data-alt="Golden retriever among yellow flowers"><img src="assets/golden-retriever.jpg" alt="Golden retriever among yellow flowers"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>golden retriever energy</strong><span>sunshine in dog form</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/kittens-with-rose.jpg" data-alt="Two kittens reaching toward a pink rose"><img src="assets/kittens-with-rose.jpg" alt="Two kittens reaching toward a pink rose"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>tiny chaos club</strong><span>small paws, dramatic intentions</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/cat-with-flowers.jpg" data-alt="A cat holding a bouquet of flowers"><img src="assets/cat-with-flowers.jpg" alt="A cat holding a bouquet of flowers"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>flower delivery</strong><span>delivered with questionable training</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/amusement-park.jpg" data-alt="An amusement park beneath a bright sky"><img src="assets/amusement-park.jpg" alt="An amusement park beneath a bright sky"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>little adventures</strong><span>for bright, silly moments</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/swing-memory.jpg" data-alt="A swing ride silhouetted against the evening sky"><img src="assets/swing-memory.jpg" alt="A swing ride silhouetted against the evening sky"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>stay a little longer</strong><span>that soft end-of-day feeling</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/rainy-kitten.jpg" data-alt="A kitten in a rainy, dreamy setting"><img src="assets/rainy-kitten.jpg" alt="A kitten in a rainy, dreamy setting"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>rainy-day mood</strong><span>a tiny bit of quiet</span></figcaption></figure>
+        <figure class="photo-card reveal"><button class="photo-button" type="button" data-img="assets/cats-in-mist.jpg" data-alt="Cats surrounded by soft mist"><img src="assets/cats-in-mist.jpg" alt="Cats surrounded by soft mist"><span class="photo-open" aria-hidden="true">↗</span></button><figcaption><strong>little mysteries</strong><span>soft focus, softer thoughts</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="interlude" aria-label="A little animated pause">
+      <div class="pause-art reveal" aria-hidden="true"><span class="orbit orbit-one"></span><span class="orbit orbit-two"></span><span class="pause-star">✦</span><span class="pause-heart">♡</span><span class="pause-dot dot-one"></span><span class="pause-dot dot-two"></span></div>
+      <div class="pause-caption" aria-hidden="true"><span></span><span></span><span></span></div>
+      <button class="text-button surprise-trigger" id="sparkle-button" type="button">tap for a tiny surprise <span aria-hidden="true">✦</span></button>
+      <p class="surprise-feedback" id="sparkle-feedback" aria-live="polite" hidden>♡ ✦ ♡</p>
+    </section>
+
+    <section class="finale" id="finale" aria-labelledby="finale-title">
+      <div class="finale-glow" aria-hidden="true"></div><span class="kicker reveal">08 / one last little moment</span>
+      <div class="camera-frame reveal" aria-hidden="true"><span class="camera-corner corner-tl"></span><span class="camera-corner corner-tr"></span><span class="camera-corner corner-bl"></span><span class="camera-corner corner-br"></span><span class="camera-lens"></span></div>
+      <h2 id="finale-title" class="reveal">One little<br><em>photo moment.</em></h2>
+      <button class="button button-primary camera-button" id="camera-button" type="button">say cheese? <span aria-hidden="true">📸</span></button>
+      <div class="camera-flash" id="camera-flash" aria-hidden="true"></div>
+      <p class="closing-line" id="closing-line" hidden>kiruuu, say cheeseeee! i wanna see my fave eyes smileeeee 🥹🤍📸</p>
+      <button class="text-button replay-button" id="replay-button" type="button" hidden>replay the little moment ↻</button>
+    </section>
+  </main>
+  <footer class="site-footer"><span>made with care, for Kiruuu</span><a href="#top">back to the beginning ↑</a></footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-title" hidden>
+    <div class="lightbox-panel"><button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close enlarged photo">×</button><img id="lightbox-image" alt=""><p id="lightbox-title" class="sr-only">Expanded photograph</p></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden>♡ ✦ ♡</div>
+</body>
+</html>
